@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/*Versão para telas maiores que 768px de largura*/
+
+@media screen and (min-width:768px){
+    
+    header{
+        padding-bottom: 20px;
+    }
+
+    header h1{
+        padding-bottom: 30px;
+    }
+
+    #icone{
+        display: none;
+    }
+
+    li{
+        list-style-type: none;
+        display: inline;
+    }
+
+    menu a{
+        display: inline;
+        padding: 10px;
+        margin-left: 5px;
+        background-color: white;
+        color: black;
+    }
+
+    menu a:hover{
+        box-sizing: border-box;
+        background-color: lightgrey;
+        border: 1px solid lightgrey;
+    }
+
+    menu{  
+        margin-left: 20px;
+        text-align: left;
+        display: block;
+
+    }
+    main{
+        max-width: 700px;
+    }
+}
